@@ -2,7 +2,13 @@
 
 int main(int argc, char *argv[])
 {
-    if (argc == 1)
-        printf("\nNo Extra Command Line Argument Passed Other Than Program Name\n");
+    if (argc != 3)
+    {
+        printf("usage: ./make-list <num_terms> <output file name>\n");
+    }
+    else
+    {
+        printf("Number Of Arguments Passed: %d\n", argc);
+    }
     return 0;
 }
