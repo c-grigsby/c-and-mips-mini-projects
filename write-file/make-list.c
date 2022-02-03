@@ -11,7 +11,6 @@ int main(int argc, char *argv[])
     {
         char *user_num;
         char *file_name;
-        char str[5];
         FILE *fptr;
 
         user_num = argv[1];
@@ -20,8 +19,7 @@ int main(int argc, char *argv[])
         fptr = fopen(file_name, "w");
         for (int i = 0; i < atoi(user_num); ++i)
         {
-            sprintf(str, "%d", i);
-            fprintf(fptr, "%s\n", str);
+            fprintf(fptr, "%d\n", i);
         }
         fclose(fptr);
     }
