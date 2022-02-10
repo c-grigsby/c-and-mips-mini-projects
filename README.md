@@ -2,7 +2,7 @@
 
 # C Mini Projects
 
-A collection of short projects to provide an introduction to C programming
+A collection of short projects to provide an introduction to C programming as well as MIPS assembly language
 
 ---
 
@@ -10,3 +10,5 @@ A collection of short projects to provide an introduction to C programming
 
 - file handling
 - command-line argument passing
+- arrays
+- MIPS assembly language conversions
