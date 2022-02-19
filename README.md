@@ -1,5 +1,7 @@
+<div display="inline-block">
 <img src="https://www.britefish.net/wp-content/uploads/2019/07/logo-c-1.png" height="150">
 <img src="https://assets.exercism.io/tracks/mips-bordered-turquoise.png" height="115">
+</div>
 
 # C and MIPS Mini Projects
 
