@@ -1,8 +1,9 @@
 <img src="https://www.britefish.net/wp-content/uploads/2019/07/logo-c-1.png" height="150">
+<img src="https://assets.exercism.io/tracks/mips-bordered-turquoise.png" height="115">
 
-# C Mini Projects
+# C and MIPS Mini Projects
 
-A collection of short projects to provide an introduction to C programming as well as MIPS assembly language
+A collection of short projects to provide an introduction to programming with C and MIPS assembly language
 
 ---
 
@@ -11,4 +12,5 @@ A collection of short projects to provide an introduction to C programming as we
 - file handling
 - command-line argument passing
 - arrays
+- compound conditional statements
 - MIPS assembly language conversions
