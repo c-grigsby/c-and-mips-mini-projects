@@ -7,9 +7,9 @@ _start:
 
 	la $s0, arrA				# load address of arrA
 	la $s1, ANSWER  			# load address of ANSWER => where to store the final answer 
-	li $s2, 8					# arr_length => 8 words in the array 
+	li $s2, 8				# arr_length => 8 words in the array 
 	lw $t6, 0($s0) 				# min => load word to init minimum element from arrA (min = arrA[0])
-	li $t0, 1					# i => load immediate the loop counter, i = 1
+	li $t0, 1				# i => load immediate the loop counter, i = 1
 	add $t1, $s0, 4 			# temp pointer for arrA[i] => increment the address of arrA to point to A[1]
 
 	FIND_MIN_LOOP:		
@@ -24,9 +24,9 @@ _start:
 		j FIND_MIN_LOOP			# jump to repeat the loop
 			
 	END:
-		sw $t6, 0($s1)		    # ANSWER == min => store final answer into memory address ANSWER
+		sw $t6, 0($s1)		    	# ANSWER == min => store final answer into memory address ANSWER
 		li $v0, 10  			# system call code for exit = 10
-		syscall 			    # call operating system
+		syscall 			# call operating system
 		
 .data
 	arrA: .word 3,5,3,2,1,6,9,4 
