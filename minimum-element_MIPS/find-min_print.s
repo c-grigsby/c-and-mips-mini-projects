@@ -10,7 +10,7 @@ _start:
 	syscall					# use syscall 10 to stop simulation
 
 print_intArray:
-	addi $sp, $sp, -24			# init space on the stack for 5 words
+	addi $sp, $sp, -24			# init space on the stack for 6 words
 	sw $s0, 20($sp)				# save register $s0 on the stack
 	sw $s1, 16($sp)				# save register $s1 on the stack
 	sw $t0, 12($sp)				# save register $t0 on the stack
