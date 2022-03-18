@@ -16,3 +16,4 @@ A collection of short projects to provide an introduction to programming with C 
 - arrays
 - compound conditional statements
 - MIPS assembly language conversions
+- string manipulation 
