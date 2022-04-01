@@ -17,3 +17,5 @@ A collection of short projects to provide an introduction to programming with C 
 - compound conditional statements
 - MIPS assembly language conversions
 - string manipulation 
+- bubble sort
+- function calls and stack handling in MIPS
