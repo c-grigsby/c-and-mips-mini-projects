@@ -26,7 +26,7 @@ int main(int argc, char **argv)
     fclose(fp);
 
     printf("\nFloat: %f\n", a);
-    printf("Double: %f\n", b);
+    printf("Double: %lf\n", b);
     printf("Int: %d\n", c);
     printf("Char: %c\n\n", d);
 
