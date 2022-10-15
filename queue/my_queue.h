@@ -1,24 +1,18 @@
-/*
+/**********************************************
  * my_queue.h - prototype functions for a queue
- *
  * Author: clintf
- * Student Name:
- *
+ * Student Name: Christopher Grigsby
  * Course: CSCI 356
  * Version 1.0
  */
 
-
 #ifndef MY_QUEUE_H_
 #define MY_QUEUE_H_
-
-
 
 struct q_elementS {
 	void* contents;				// the queue item
 	struct q_elementS* next; // pointer to the next item in queue
 };
-
 
 typedef struct q_elementS q_element;
 
@@ -28,7 +22,6 @@ struct queueS {
 
 //Clint change stack to queue
 typedef struct queueS* queue;	// a queue is a pointer
-
 
 /*
  * creates a queue
@@ -59,7 +52,6 @@ void enqueue (queue q, void* item);
  */
 void* dequeue (queue q);
 
-
 /*
  * allows fo first item from queue to be examined
  * queue q: a queue to check: q must not be NULL
@@ -67,6 +59,5 @@ void* dequeue (queue q);
  * 			queue is left unaltered
  */
 void* peek (queue q);
-
 
 #endif /* MY_QUEUE_H_ */
