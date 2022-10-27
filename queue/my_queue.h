@@ -1,9 +1,6 @@
 /**********************************************
  * my_queue.h - prototype functions for a queue
  * Author: clintf
- * Student Name: Christopher Grigsby
- * Course: CSCI 356
- * Version 1.0
  */
 
 #ifndef MY_QUEUE_H_
@@ -18,6 +15,7 @@ typedef struct q_elementS q_element;
 
 struct queueS {
 	q_element* front;
+	q_element* tail;
 };
 
 //Clint change stack to queue

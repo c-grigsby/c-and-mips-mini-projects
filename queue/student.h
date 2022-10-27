@@ -1,8 +1,5 @@
 /******************************************************************
  * student.h - prototype functions and student class implementation
- * Author: Christopher Grigsby
- * Email: cwgrigsby@coastal.edu
- * Course: CSCI 356
  */
 
 #ifndef STUDENT_H_
@@ -18,7 +15,7 @@ typedef struct student* student;
 // newStudent: returns a pointer to a new student
 student newStudent();
 
-// testStudentAndQueue: displays the functionality of the queue and student struct 
+// testStudentAndQueue: displays the functionality of the queue and student struct to the console
 void testStudentAndQueue();
 
 // getStudentInformation: a loop to collect user input, returns a queue of the data collected
