@@ -16,6 +16,32 @@ A collection of short projects to provide an introduction to programming with C 
 - arrays
 - compound conditional statements
 - MIPS assembly language conversions
-- string manipulation 
+- string manipulation
 - bubble sort
 - function calls and stack handling in MIPS
+
+## Getting Started
+
+1. To Create the Binary
+
+```
+$ gcc [options] <sourceFile> -o <binaryName>
+```
+
+2. To Run
+
+```
+$ ./<binaryName>
+```
+
+### Options
+
+-ansi: Affects the particular version of the the C-language to use (see ANSI C, a.k.a. C89).
+
+-pedantic: Tells the compiler to give its most clear and explicit error and warning messages.
+
+-Wall: Tells the compiler to display all warnings, even those considered relatively minor and unimportant.
+
+-Werror: Tells the compiler to treat warnings as errors and NOT generate and executable when any warnings occur.
+
+-lm: Causes the compiler to link a library that provides certain Standard Library functions.
