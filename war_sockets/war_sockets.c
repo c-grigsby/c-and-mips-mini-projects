@@ -1,8 +1,6 @@
 /********************************************************
  * war_sockets.c - program to simulate a card game of war
  * Author: Christopher Grigsby
- * Email: cwgrigsby@coastal.edu
- * Course: CSCI 356
  */
 
 // @packages
