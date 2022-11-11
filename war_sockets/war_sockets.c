@@ -125,7 +125,7 @@ void server_side(int total_rounds) {
     exit(EXIT_FAILURE);
   }   
 
-  for (int i = 0; i < total_game_rounds+1; i++) {
+  while (1) {
     parent_tell_child_draw(client_connection1);
     parent_wait_child_card(client_connection1, total_game_rounds, current_round, &playerOne_round_score, &playerTwo_round_score, &current_iteration);
     sleep(1);
