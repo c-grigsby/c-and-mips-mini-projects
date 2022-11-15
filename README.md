@@ -11,6 +11,7 @@ A collection of short projects to provide an introduction to programming with C 
 
 ## Project Description
 
+- interprocess-communication
 - file handling
 - command-line argument passing
 - arrays
