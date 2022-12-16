@@ -255,7 +255,6 @@ int main(int argc, char *argv[]) {
     printf("usage: ./war_pipes <num_rounds>\n");
     exit(EXIT_FAILURE);
   } else {
-    // user_input= argv[1];
     total_rounds = atoi(argv[1]);
   }
   // @init process identification
